@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(49, 47, 47);
+    padding: 05px;      /*Define a distancia entre o item e as bordas*/
+    color: rgb(252, 161, 176);   
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 19px;
+}
+
+.formacao {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    justify-content: center; /*alinha os itens*/
+    padding-top: 65px;
+    padding-bottom: 65px;
+    
+   
+}
+
+.card {
+    margin: 40px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(252, 161, 176);
+    height: 120px;
+    width: 250px;
+    box-sizing:content-box;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+   
+}
+
+.portifolio {
+    display: flex;
+    box-sizing: border-box;
+    padding: 18px;
+    color: rgb(252, 161, 176);
+    margin: 0;
+    justify-content: center;
+}
+
+.card5 {
+    height: 55px;
+    width: 150px;
+    box-sizing:content-box;
+    text-align:center;
+    border-radius: 10px;
+}
+
+.sobremim {
+
+    padding: 18px;
+    color: rgb(252, 161, 176);
+    
+}
+
+.textosobremim {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 45px;
+    text-align:center;
+
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(37, 36, 36);
+}
+
+.formulario {
+    display: flex;
+    box-sizing: border-box;
+    padding: 05px;
+    margin: 15px;
+    justify-content: left;
+    border-radius: 5px;
+    background-color: rgb(37, 36, 36); ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(252, 161, 176);
+   
+}
+
+.imagem{
+    border-radius: 75px;
+    width: 45px;
+    justify-content: last baseline;
+}
+
+.imagemfooter {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.contato{
+    text-align: left;
+    padding: 30px;
+    color: rgb(252, 161, 176);
+    background-color: rgb(46, 45, 45);
+    margin:0 px;
+    border:0;   
+}
+
+
+
+.cabeçalho {
+   text-align: center;
+   padding: 5%;
+   font-family: 'Courier New', Courier, monospace;
+   color: black
+}
+
+
